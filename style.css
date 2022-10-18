@@ -1,0 +1,202 @@
+.s-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-flex-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.s-border{
+    border: 1.5px solid #686464;
+    padding: 10px;
+}
+
+
+
+/* Language: css */
+.senelec-invoice{
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:  20px auto;
+    font-size: 12px;
+    max-width: 800px;
+    min-width: 500px;
+}
+
+/*HEADER*/
+.senelec-invoice-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.senelec-invoice-header-1{
+     margin-bottom: 20px;
+     justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.senelec-invoice-header-2 > img{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.senelec-invoice-header-3{
+    width: 40%;
+}
+
+.s-text{
+    width: 100%;
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.s-text-title{
+    width: 50%;
+}
+.senelec-invoice-receiver{
+    border-radius: 10px;
+}
+.senelec-invoice-header-3-p2{
+    margin-top: 1rem;
+}
+
+.senelec-invoice-receiver-text{
+    display: flex;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.senelec-invoice-receiver-text > div:nth-child(1){
+    width: 40%;
+}
+
+/*STYLE FOR TABLE*/
+.senelec-invoice-content-table{
+    margin-top: 2rem;
+}
+.senelec-invoice-content-table > table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.senelec-invoice-content-table > table > thead > tr > th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.senelec-invoice-content-table > table > tbody > tr > td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.senelec-invoice-content-table > table > tbody > tr > td:nth-child(1){
+    text-align: left;
+    width: 30%;
+}
+
+.senelec-invoice-content-table > table > thead > tr > th:nth-child(1){
+    text-align: left;
+    width: 30%;
+}
+
+.senelec-invoice-content-table > table > tbody > tr > td:nth-child(2){
+    text-align: left;
+}
+
+.senelec-invoice-content-table > table > tbody > tr > td:nth-child(3){
+    text-align: left;
+}
+
+.senelec-invoice-content-table > table > tbody > tr > td:nth-child(4){
+    text-align: left;
+}
+
+
+/*SUB TABLES*/
+.senelec-invoice-content-summary{
+    column-gap: .3rem;
+}
+.senelec-invoice-content-summary-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    Width: 50%;
+}
+
+.senelec-invoice-content-summary-item > table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.senelec-invoice-content-summary-item > table  td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.senelec-invoice-content-summary-item > table  td:nth-child(1){
+    text-align: left;
+    width: 45%;
+}
+
+/**/
+.senelec-invoice-content-signature-item{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.senelec-invoice-content-signature-item > div:nth-child(1){
+    width: 55%;
+}
+.senelec-invoice-content-signature-item-2{
+    text-align: end;
+}
+
+.senelec-invoice-footer-item{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.senelec-invoice-footer-item-logo > img{
+    width: 40px;
+    height: 40px;
+}
+.senelec-invoice-footer-item-logo{
+    width: 35%;
+}
+
+.senelec-invoice-footer-item:nth-child(2){
+    width: 70%;
+}
+
+.s-divider{
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.senelec-invoice-footer-item-infos-item{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.senelec-invoice-footer-item-infos{
+    margin-left: 5rem;
+}
+
+.senelec-invoice-footer-item-infos-item-title{
+    width: 50%;
+    margin-top: 0;
+}
+
